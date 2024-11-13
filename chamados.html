@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto GLPI - Chamados</title>
+    <link rel="stylesheet" href="./css/chamados.css" />
+    <link rel="shortcut icon" href="./img/glpi-logo.webp" type="image/x-icon" />
+  </head>
+<body>
+  <main>
+    <nav>
+       <ul>
+        <li><a href="./menu.html" target="_self">Menu</a></li>
+        <li><a href="./chamados.html" target="_self">Chamados</a></li>
+        <li><a href="./solicitacoes.html" target="_self">Solicitações</a></li>
+      </ul>
+  </nav>
+<header>
+  <img src="./img/glpi-logo.webp" alt="Logo GLPI" />
+</header>
+<section>
+  <div>
+    <h1>Descreva abaixo o motivo do chamado:</h1>
+      <br>
+    <form>
+      <fieldset>
+
+          <div id="Dados pessoais">
+        <label>Nome:</label>
+          <input type="text" name="Nome" id="Nome">
+            </div>
+      
+          <div>
+       <label>Número de celular:</label>
+          <input type="number" name="Número" id="Número">
+          </div>
+
+          <div id="Login">
+       <label>Email:</label>
+         <input type="email" name="Email" id="Email">
+         <br>
+       <label>Senha:</label>
+         <input type="password" name="Senha" id="Senha">
+         </div>
+
+        <div id="Problema">
+        <label>Qual problema esta acontecendo:</label>
+          <input type="text" name="motivo" id="motivo">
+          <br>
+        <label>Gravidade:</label>
+          <input type="radio" name="motivo" value="Razoável" checked>Razoável
+          <input type="radio" name="motivo" value="Normal">Normal
+          <input type="radio" name="motivo" value="Grave">Grave
+        </div>
+
+        <div id="Prazo">
+        <label>Prazo de conclusão:</label>
+          <input type="datetime" name="Prazo" id="Prazo">
+          </div>
+
+      </fieldset>
+    </form>   
+  </div>
+</section>
+<footer>
+  <p>Desenvolvido por: Nome1 - <a href="#">Repositório</a></p>
+</footer>
+ </main>
+</body>
+</html>
